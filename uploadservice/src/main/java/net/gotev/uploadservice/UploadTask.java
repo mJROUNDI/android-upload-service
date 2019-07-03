@@ -553,7 +553,7 @@ public abstract class UploadTask implements Runnable {
 
             statusConfig.addActionsToNotificationBuilder(notification);
 
-            setRingtone(notification);
+            //setRingtone(notification);
 
             // this is needed because the main notification used to show progress is ongoing
             // and a new one has to be created to allow the user to dismiss it
